@@ -17,5 +17,5 @@ command sudo pacman -S rofi
 
 CONFIG_DIR="$LOCAL_DIR/config"
 echo "Copying dotfiles..."
-cp -r "$CONFIG_DIR/" ~/.config/
+cp -r config/* ~/.config/
 cp "$LOCAL_DIR/home/.zshrc" ~/
