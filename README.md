@@ -1,23 +1,16 @@
-# arch-hyprland-rice
-My personal look for arch linux with hyprpanel.
-
-# Download these
-
-###  HyprPanel
-First install the required dependencies 
-```bash 
-sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs
-```
-Now install hyprpanel
+### Installing
+Make `setup.sh` executable
 ```bash
-yay -S ags-hyprpanel-git
+chmod +x setup.sh
 ```
-
-### Rofi
-
-```bash
-sudo pacman -S rofi
-```
+Run it. If `cp` fails the run it yourself.
+Important files|Where you should move them:
+- home/.zshrc ~/
+- config/* ~/.config/
 
 ### Wallpaper
 ![blackorsmth](https://github.com/user-attachments/assets/c2134953-4840-4aaa-94e9-883b55cb4f16)
+
+
+
+
